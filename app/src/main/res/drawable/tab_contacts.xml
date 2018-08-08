@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:androdi = "http://schemas.android.com/apk/res/android">
+    <item androdi:drawable="@drawable/contacts_pressed" androdi:state_selected="true" />
+    <item androdi:drawable="@drawable/contacts_normal" />
+</selector>

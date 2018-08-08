@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">Smart Distribution Terminal</string>
+    <string name="app_name">快互通</string>
+    <string name="wuliuList">快递列表</string>
+    <string name="chatList">消息列表</string>
+    <string name="contacts">通讯录</string>
+    <string name="settings">设置</string>
+    <string name="saomiao">扫描二维码</string>
 </resources>
