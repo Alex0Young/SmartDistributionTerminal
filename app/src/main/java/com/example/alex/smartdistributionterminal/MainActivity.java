@@ -10,17 +10,17 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    private TextView txt_right;
-    private ImageView img_right;
-    private ImageView[] imagebuttons;
-    private TextView[] textViews;
+    private TextView txt_right;  //顶部标题
+    private ImageView img_right;  //顶部图标
+    private ImageView[] imagebuttons;  //底部按钮图片
+    private TextView[] textViews; //底部按钮标题
    // private Fragment[] fragments;
    // public Fragment_Msg homefragment;
    // private Fragment_Friends contactlistfragment;
   //  private Fragment_Dicover findfragment;
   //  private Fragment_Profile profilefragment;
-    private int index;
-    private int currentintent;
+    private int index;  //点击的按钮的编号
+    private int currentintent;  //当前按钮的编号
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    private void initTabView(){
+    private void initTabView(){  //初始化底部按钮，对按钮进行实例化
         imagebuttons = new ImageView[4];
         imagebuttons[0] = (ImageView) findViewById(R.id.ib_wuliu);
         imagebuttons[1] = (ImageView) findViewById(R.id.ib_chat_list);
@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onTabClicked(View view) {
-        switch (view.getId()){
+        switch (view.getId()){  //设置点击底部按钮进行跳转
             case R.id.re_wuliu:
                 Toast.makeText(this,"You clicked wuliu",Toast.LENGTH_SHORT).show();
                 index = 0;
@@ -93,7 +93,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    private void findviewbyid(){
+    private void findviewbyid(){   //绑定顶部标题和图片
         txt_right = (TextView) findViewById(R.id.txt_right);
         img_right = (ImageView) findViewById(R.id.img_right);
     }
