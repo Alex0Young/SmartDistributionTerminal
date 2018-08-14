@@ -27,13 +27,20 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
+
     implementation 'com.android.support:appcompat-v7:28.0.0-rc01'
     implementation 'com.android.support.constraint:constraint-layout:1.1.2'
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+<<<<<<< HEAD
+    implementation files('libs/litepal-1.6.1-src.jar')
+    //implementation 'com.haibin:calendarview:3.4.0'
+    implementation 'com.squareup.okhttp3:okhttp:3.7.0'
+=======
     //implementation 'com.google.android.gms:play-services-gcm:15.0.1'
     //implementation 'com.hyphenate:hyphenate-sdk:3.3.0'
+>>>>>>> de31ccf34dd68abc9d9f75d28131363348ec9522
 }
 
 

@@ -1,8 +1,25 @@
 <resources>
+<<<<<<< HEAD
+    <string name="app_name">Smart Distribution Terminal</string>
+    <string name="slogan">贴心孕程，伴你全程</string>
+    <string name="AccountHint">用户名/手机号/邮箱</string>
+    <string name="Password">密码</string>
+    <string name="RememberPwd">记住密码</string>
+    <string name="AutoLogIn">自动登录</string>
+    <string name="Register">注册</string>
+    <string name="Login">登录</string>
+    <string name="VisitorHint">还不想登录或注册？点此以游客身份进入</string>
+    <string name="null_hint">账号或密码不能为空</string>
+    <string name="account_invalid_hint">用户名不是有效的手机号或邮箱</string>
+    <string name="cancel">取消</string>
+    <string name="ConfirmPwd">确认密码</string>
+    <string name="not_equal_hint">两次输入的密码需保持一致</string>
+=======
     <string name="app_name">快互通</string>
     <string name="wuliuList">快递列表</string>
     <string name="chatList">消息列表</string>
     <string name="contacts">通讯录</string>
     <string name="settings">设置</string>
     <string name="saomiao">扫描二维码</string>
+>>>>>>> de31ccf34dd68abc9d9f75d28131363348ec9522
 </resources>

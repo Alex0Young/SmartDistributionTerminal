@@ -30,12 +30,22 @@
         android:theme="@style/AppTheme">
 
         <activity android:name=".MainActivity">
+            <!--<intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>-->
+        </activity>
+        <activity android:name=".activity.LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+<<<<<<< HEAD
+        <activity android:name=".activity.RegisterActivity"/>
+=======
 
         <!-- 设置环信应用的AppKey -->
         <meta-data android:name="EASEMOB_APPKEY"  android:value="1151180809146530#smart-distribution-terminal" />
@@ -58,6 +68,7 @@
             </intent-filter>
         </receiver>
 
+>>>>>>> de31ccf34dd68abc9d9f75d28131363348ec9522
     </application>
 
 </manifest>
