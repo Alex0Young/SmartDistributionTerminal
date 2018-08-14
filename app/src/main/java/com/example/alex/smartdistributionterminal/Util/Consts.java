@@ -10,12 +10,6 @@ public class Consts {
     //    public static String URL = "http://172.20.7.94:8080/PregnantMonitor/";
     public static String URL_Register = URL + "RegisterServlet";
     public static String URL_Login = URL + "LoginServlet";
-    public static String URL_Analyse = URL + "AnalyseServlet";
-    public static String URL_ModifyPwd = URL + "ModifyPwdServlet";
-    public static String URL_UploadImg = URL + "UploadImgServlet";
-    public static String URL_DownloadImg = URL + "DownloadImgServlet";
-    public static String URL_GetInfo = URL + "GetInfoServlet";
-    public static String URL_SetInfo = URL + "SetInfoServlet";
 
     public static final int IMAGE_REQUEST_CODE = 0;
     public static final int CAMERA_REQUEST_CODE = 1;
@@ -58,13 +52,4 @@ public class Consts {
 
     public static String SUCCESSMSG_LOGIN = "登录成功";
     public static String SUCCESSMSG_REGISTER = "注册成功";
-    public static String SUCCESSMSG_DIAB = "血糖水平不正常，注意少食多餐@_@";
-    public static String SUCCESSMSG_NOTDIAB = "您的身体的血糖水平很健康=w=";
-
-    // 客户端提示信息
-    public static String ERROR_FORMAT = "输入数据格式错误";
-    public static String AGE_INVALID = "请输入合法年龄值（1-100）";
-    public static String HEIGHT_INVALID = "请输入合法身高（1.0-2.0）";
-    public static String WEIGHT_INVALID = "请输入合法体重（>0）";
-    public static String OGTT_INVALID = "请输入合法空腹血糖值（>0）";
 }
